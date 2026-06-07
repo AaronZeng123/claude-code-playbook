@@ -1,0 +1,27 @@
+{
+  "name": "claude-code-playbook",
+  "version": "1.0.0",
+  "description": "一键安装 Claude Code 会话提取工具和场景/技巧分析 Skill",
+  "bin": {
+    "claude-code-playbook": "./install.js"
+  },
+  "files": [
+    "install.js",
+    "extract_sessions.py",
+    "skills/"
+  ],
+  "keywords": [
+    "claude-code",
+    "claude",
+    "skill",
+    "session",
+    "extract",
+    "playbook"
+  ],
+  "author": "Aaron Zeng <zengjun_ai@wechat>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AaronZeng123/claude-code-playbook"
+  }
+}
