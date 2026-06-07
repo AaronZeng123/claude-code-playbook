@@ -1,0 +1,23 @@
+# macOS
+.DS_Store
+._*
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Output directories
+claude-sessions/
+output/
+tmp/
+
+# Environment
+.env
+.env.local
